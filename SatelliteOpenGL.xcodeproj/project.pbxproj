@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		271FCAC31C980B3000DDC4C5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 271FCAC21C980B3000DDC4C5 /* main.c */; };
+		271FCACC1C980BFF00DDC4C5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 271FCAC91C980BFF00DDC4C5 /* main.c */; };
+		271FCACD1C980BFF00DDC4C5 /* View.c in Sources */ = {isa = PBXBuildFile; fileRef = 271FCACA1C980BFF00DDC4C5 /* View.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		271FCABF1C980B3000DDC4C5 /* SatelliteOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SatelliteOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		271FCAC21C980B3000DDC4C5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		271FCAC91C980BFF00DDC4C5 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		271FCACA1C980BFF00DDC4C5 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = View.c; sourceTree = "<group>"; };
+		271FCACB1C980BFF00DDC4C5 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		271FCAC11C980B3000DDC4C5 /* SatelliteOpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				271FCAC21C980B3000DDC4C5 /* main.c */,
+				271FCAC91C980BFF00DDC4C5 /* main.c */,
+				271FCACA1C980BFF00DDC4C5 /* View.c */,
+				271FCACB1C980BFF00DDC4C5 /* View.h */,
 			);
 			path = SatelliteOpenGL;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				271FCAC31C980B3000DDC4C5 /* main.c in Sources */,
+				271FCACD1C980BFF00DDC4C5 /* View.c in Sources */,
+				271FCACC1C980BFF00DDC4C5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
