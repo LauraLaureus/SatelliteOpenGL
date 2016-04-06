@@ -28,6 +28,7 @@
 		271FCAC91C980BFF00DDC4C5 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		271FCACA1C980BFF00DDC4C5 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = View.c; sourceTree = "<group>"; };
 		271FCACB1C980BFF00DDC4C5 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		27D077B71CB4FC96005737D1 /* demoP5CIUT2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demoP5CIUT2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		271FCAB61C980B3000DDC4C5 = {
 			isa = PBXGroup;
 			children = (
+				27D077B71CB4FC96005737D1 /* demoP5CIUT2.gif */,
 				271FCAC11C980B3000DDC4C5 /* SatelliteOpenGL */,
 				271FCAC01C980B3000DDC4C5 /* Products */,
 			);
@@ -243,6 +245,7 @@
 				271FCAC81C980B3000DDC4C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
